@@ -1,0 +1,161 @@
+unit Objects;
+
+{$mode objfpc}{$H+}
+
+interface         //use 'uses' section to relate to other units
+
+type
+  tTrack = class(TObject)
+  private
+    ID: integer;
+    srcAddress: string;
+    destAddress: string;
+    title: string;
+    trackNo: integer;
+  public
+    procedure setID(IDinput: integer);
+    function getID: integer;
+    procedure setSrcAddress(srcInput: string);
+    function getSrcAddress: string;
+    procedure setDestAddress(destInput: string);
+    function getDestAddress: string;
+    procedure setTitle(titleInput: string);
+    function getTitle: string;
+    procedure setTrackNo(trackNoInput: integer);
+    function getTrackNo: integer;
+  end;
+
+  tSrc = class(TObject)
+  private
+    iTunesFolder: string;
+    slash: char;  //slash is the type of slash used - avoids cross-platform
+                  //compatibility issues
+    procedure determineSlash;
+  public
+    procedure setiTunesFolder(iTunesFolderInput: string);
+    function getiTunesFolder: string;
+    function getSlash: char;
+  end;
+
+  tDest = class(TObject)
+  private
+    folder: string;
+    slash: char;
+    procedure determineSlash;
+  public
+    procedure setFolder(folderInput: string);
+    function getFolder: string;
+    function getSlash: char;
+  end;
+
+implementation
+
+uses
+  Classes,
+  SysUtils,
+  StrUtils;
+
+procedure tTrack.setID(IDinput: integer);
+begin
+  ID := IDinput;
+end;
+
+function tTrack.getID: integer;
+begin
+  result := ID;
+end;
+
+procedure tTrack.setSrcAddress(srcInput: string);
+begin
+  srcAddress := srcInput;
+end;
+
+function tTrack.getSrcAddress: string;
+begin
+  result := srcAddress;
+end;
+
+procedure tTrack.setDestAddress(destInput: string);
+begin
+  destAddress := destInput;
+end;
+
+function tTrack.getDestAddress: string;
+begin
+  result := destAddress;
+end;
+
+procedure tTrack.setTitle(titleInput: string);
+begin
+  title := titleInput;
+end;
+
+function tTrack.getTitle: string;
+begin
+  result := title;
+end;
+
+procedure tTrack.setTrackNo(trackNoInput: integer);
+begin
+  trackNo := trackNoInput;
+end;
+
+function tTrack.getTrackNo: integer;
+begin
+  result := trackNo;
+end;
+
+procedure tSrc.setiTunesFolder(iTunesFolderInput: string);
+begin
+  iTunesFolder := iTunesFolderInput;
+  determineSlash;
+end;
+
+function tSrc.getiTunesFolder: string;
+begin
+  result := iTunesFolder;
+end;
+
+procedure tSrc.determineSlash;
+var
+  stringPos: integer;
+begin
+  stringPos := 1;
+  while not ((iTunesFolder[stringPos] = '/') or (iTunesFolder[stringPos] = '\')) do
+    inc(stringPos);
+  slash := iTunesFolder[stringPos];
+end;
+
+function tSrc.getSlash: char;
+begin
+  result := slash;
+end;
+
+procedure tDest.setFolder(folderInput: string);
+begin
+  folder := folderInput;
+  determineSlash;
+end;
+
+function tDest.getFolder: string;
+begin
+  result := folder;
+end;
+
+procedure tDest.determineSlash;
+var
+  stringPos: integer;
+begin
+  stringPos := 1;
+  while not ((folder[stringPos] = '/') or (folder[stringPos] = '\')) do
+    inc(stringPos);
+  slash := folder[stringPos];
+end;
+
+function tDest.getSlash: char;
+begin
+  result := slash;
+end;
+
+end.
+

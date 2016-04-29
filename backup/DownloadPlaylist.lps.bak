@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="DownloadPlaylist.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DownloadPlaylist"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="8"/>
+        <CursorPos X="87" Y="13"/>
+        <UsageCount Value="98"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DownloadPlaylistObjects"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="112"/>
+        <CursorPos X="1" Y="132"/>
+        <UsageCount Value="95"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\rtl\objpas\sysutils\filutilh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="33"/>
+        <CursorPos X="13" Y="39"/>
+        <UsageCount Value="9"/>
+      </Unit2>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="194" Column="1" TopLine="158"/>
+      </Position1>
+      <Position2>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="131" Column="1" TopLine="112"/>
+      </Position2>
+      <Position3>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="132" Column="1" TopLine="112"/>
+      </Position3>
+      <Position4>
+        <Filename Value="DownloadPlaylist.lpr"/>
+        <Caret Line="261" Column="1" TopLine="237"/>
+      </Position4>
+      <Position5>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="173" Column="1" TopLine="154"/>
+      </Position5>
+      <Position6>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="174" Column="1" TopLine="154"/>
+      </Position6>
+      <Position7>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="193" Column="1" TopLine="158"/>
+      </Position7>
+      <Position8>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="194" Column="1" TopLine="158"/>
+      </Position8>
+      <Position9>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="131" Column="1" TopLine="112"/>
+      </Position9>
+      <Position10>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="132" Column="1" TopLine="112"/>
+      </Position10>
+      <Position11>
+        <Filename Value="DownloadPlaylist.lpr"/>
+        <Caret Line="261" Column="1" TopLine="237"/>
+      </Position11>
+      <Position12>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="173" Column="1" TopLine="154"/>
+      </Position12>
+      <Position13>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="174" Column="1" TopLine="154"/>
+      </Position13>
+      <Position14>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="193" Column="1" TopLine="158"/>
+      </Position14>
+      <Position15>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="194" Column="1" TopLine="158"/>
+      </Position15>
+      <Position16>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="131" Column="1" TopLine="112"/>
+      </Position16>
+      <Position17>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="132" Column="1" TopLine="112"/>
+      </Position17>
+      <Position18>
+        <Filename Value="DownloadPlaylist.lpr"/>
+        <Caret Line="261" Column="1" TopLine="237"/>
+      </Position18>
+      <Position19>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="173" Column="1" TopLine="154"/>
+      </Position19>
+      <Position20>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="174" Column="1" TopLine="154"/>
+      </Position20>
+      <Position21>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="193" Column="1" TopLine="158"/>
+      </Position21>
+      <Position22>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="194" Column="1" TopLine="158"/>
+      </Position22>
+      <Position23>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="131" Column="1" TopLine="112"/>
+      </Position23>
+      <Position24>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="132" Column="1" TopLine="112"/>
+      </Position24>
+      <Position25>
+        <Filename Value="DownloadPlaylist.lpr"/>
+        <Caret Line="263" Column="1" TopLine="237"/>
+      </Position25>
+      <Position26>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="173" Column="1" TopLine="154"/>
+      </Position26>
+      <Position27>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="174" Column="1" TopLine="154"/>
+      </Position27>
+      <Position28>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="193" Column="1" TopLine="158"/>
+      </Position28>
+      <Position29>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="194" Column="1" TopLine="158"/>
+      </Position29>
+      <Position30>
+        <Filename Value="downloadplaylistobjects.pas"/>
+        <Caret Line="131" Column="1" TopLine="112"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>
